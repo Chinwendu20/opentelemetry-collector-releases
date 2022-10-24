@@ -12,8 +12,6 @@ builds:
   ignore:
   - goos: darwin
     goarch: "386"
-  - goos: windows
-    goarch: arm64
   dir: distributions/otelcol/_build
   ldflags:
   - -s
